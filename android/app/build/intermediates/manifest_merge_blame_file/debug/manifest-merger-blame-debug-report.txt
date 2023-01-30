@@ -1,0 +1,414 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.clickandpay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:3:5-64
+12-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:3:22-62
+13
+14    <uses-feature
+14-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:4:5-85
+15        android:name="android.hardware.camera"
+15-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:4:19-57
+16        android:required="false" />
+16-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:4:58-82
+17    <uses-feature
+17-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:5:6-92
+18        android:name="android.hardware.camera.front"
+18-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:5:20-64
+19        android:required="false" />
+19-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:5:65-89
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:6:5-67
+21-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:6:22-64
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[com.facebook.flipper:flipper:0.125.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/1e12695d2cb63516782bcde699d556ce/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+22-->[com.facebook.flipper:flipper:0.125.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/1e12695d2cb63516782bcde699d556ce/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->[:react-native-fs] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+23-->[:react-native-fs] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+24
+25    <queries>
+25-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+26        <intent>
+26-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+27            <action android:name="android.media.action.IMAGE_CAPTURE" />
+27-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+27-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+28        </intent>
+29    </queries> <!-- Required to access Google Play Licensing -->
+30    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+30-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+30-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+31    <!--
+32         Required to keep CPU alive while downloading files
+33        (NOT to keep screen awake)
+34    -->
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-68
+35-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:22-65
+36    <!--
+37         Required to poll the state of the network connection
+38        and respond to changes
+39    -->
+40    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+40-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-79
+40-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:22-76
+41    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+41-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:5-82
+41-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:22-79
+42    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+43    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+44    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+45    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+46    <!-- for Samsung -->
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+48    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+49    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+50    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+51    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+52    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+53    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+54    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+55    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+56    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+57    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+58    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+59    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+60    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+62    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+62-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+62-->[me.leolin:ShortcutBadger:1.1.22] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/6974dbef7f1b3e6962943c0efaa341fa/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+63
+64    <application
+64-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:9:5-51:19
+65        android:name="com.clickandpay.MainApplication"
+65-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:11:7-38
+66        android:allowBackup="false"
+66-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:15:7-34
+67        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+67-->[androidx.core:core:1.6.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/786bdedacb492073f49b43e471563d9c/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+68        android:debuggable="true"
+69        android:icon="@mipmap/ic_launcher"
+69-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:13:7-41
+70        android:label="@string/app_name"
+70-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:12:7-39
+71        android:roundIcon="@mipmap/ic_launcher_round"
+71-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:14:7-52
+72        android:theme="@style/AppTheme"
+72-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:16:7-38
+73        android:usesCleartextTraffic="true" >
+73-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:10:7-42
+74        <activity
+74-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/debug/AndroidManifest.xml:11:9-111
+75            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+75-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/debug/AndroidManifest.xml:11:19-83
+76            android:exported="false" />
+76-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/debug/AndroidManifest.xml:11:84-108
+77        <activity
+77-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:17:7-28:18
+78            android:name="com.clickandpay.MainActivity"
+78-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:18:9-37
+79            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+79-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:20:9-118
+80            android:exported="true"
+80-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:23:9-32
+81            android:label="@string/app_name"
+81-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:19:9-41
+82            android:launchMode="singleTask"
+82-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:21:9-40
+83            android:windowSoftInputMode="adjustResize" >
+83-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:22:9-51
+84            <intent-filter>
+84-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:24:9-27:25
+85                <action android:name="android.intent.action.MAIN" />
+85-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:25:13-65
+85-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:25:21-62
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:26:13-73
+87-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:26:23-70
+88            </intent-filter>
+89        </activity>
+90
+91        <meta-data
+91-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:29:7-30:43
+92            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+92-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:29:19-95
+93            android:value="true" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+93-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:30:21-41
+94        <meta-data
+94-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:32:9-33:54
+95            android:name="com.dieam.reactnativepushnotification.notification_color"
+95-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:32:21-92
+96            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+96-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:33:21-52
+97        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+97-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:34:9-108
+97-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:34:19-105
+98        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+98-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:35:9-110
+98-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:35:19-107
+99        <!--
+100 <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver">
+101            <intent-filter>
+102                <action android:name="android.intent.action.BOOT_COMPLETED" />
+103                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+104                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+105            </intent-filter>
+106        </receiver>
+107        -->
+108        <service
+108-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:43:1-49:19
+109            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+109-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:44:13-107
+110            android:exported="false" >
+110-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:45:13-37
+111            <intent-filter>
+111-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:46:13-48:29
+112                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+112-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:47:17-78
+112-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:47:25-75
+113            </intent-filter>
+114        </service>
+115        <service android:name="io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService" />
+115-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:50:10-105
+115-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:50:19-102
+116
+117        <provider
+117-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+118            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+118-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-75
+119            android:authorities="com.clickandpay.provider"
+119-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-60
+120            android:exported="false"
+120-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+121            android:grantUriPermissions="true" >
+121-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+122            <meta-data
+122-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+123                android:name="android.support.FILE_PROVIDER_PATHS"
+123-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+124                android:resource="@xml/file_viewer_provider_paths" />
+124-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+125        </provider>
+126        <provider
+126-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+127            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+127-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+128            android:authorities="com.clickandpay.provider"
+128-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+129            android:exported="false"
+129-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+130            android:grantUriPermissions="true" >
+130-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+131            <meta-data
+131-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+132                android:name="android.support.FILE_PROVIDER_PATHS"
+132-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+133                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+133-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+134        </provider>
+135
+136        <activity
+136-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+137            android:name="com.yalantis.ucrop.UCropActivity"
+137-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+138            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+138-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+139
+140        <provider
+140-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+141            android:name="com.RNFetchBlob.Utils.FileProvider"
+141-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+142            android:authorities="com.clickandpay.provider"
+142-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+143            android:exported="false"
+143-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+144            android:grantUriPermissions="true" >
+144-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+145            <meta-data
+145-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+146                android:name="android.support.FILE_PROVIDER_PATHS"
+146-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+147                android:resource="@xml/provider_paths" />
+147-->[:react-native-file-viewer] /Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+148        </provider>
+149
+150        <receiver
+150-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:28:9-35:20
+151            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+151-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:29:13-78
+152            android:exported="true"
+152-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:30:13-36
+153            android:permission="com.google.android.c2dm.permission.SEND" >
+153-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:31:13-73
+154            <intent-filter>
+154-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:32:13-34:29
+155                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+155-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:33:17-81
+155-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:33:25-78
+156            </intent-filter>
+157        </receiver>
+158        <!--
+159             FirebaseMessagingService performs security checks at runtime,
+160             but set to not exported to explicitly avoid allowing another app to call it.
+161        -->
+162        <service
+162-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:41:9-48:19
+163            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+163-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:42:13-82
+164            android:directBootAware="true"
+164-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:43:13-43
+165            android:exported="false" >
+165-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:44:13-37
+166            <intent-filter android:priority="-500" >
+166-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:46:13-48:29
+167                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+167-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:47:17-78
+167-->/Users/macbookpro/Downloads/Documents/GitHub/Click-PayApp/android/app/src/main/AndroidManifest.xml:47:25-75
+168            </intent-filter>
+169        </service>
+170        <service
+170-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:49:9-55:19
+171            android:name="com.google.firebase.components.ComponentDiscoveryService"
+171-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:50:13-84
+172            android:directBootAware="true"
+172-->[com.google.firebase:firebase-common:19.5.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/f034591a28b320a5cfb05428630c87a9/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+173            android:exported="false" >
+173-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:51:13-37
+174            <meta-data
+174-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:52:13-54:85
+175                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+175-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:53:17-119
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-messaging:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/2cd0a3f891eb52b68cfedb99e82b3f8e/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:54:17-82
+177            <meta-data
+177-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/90435c21090feaca31b36d6446e89709/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+178                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+178-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/90435c21090feaca31b36d6446e89709/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/90435c21090feaca31b36d6446e89709/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+180            <meta-data
+180-->[com.google.firebase:firebase-iid:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9d67008af88a85671cae1bf0aac82bd1/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+181                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+181-->[com.google.firebase:firebase-iid:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9d67008af88a85671cae1bf0aac82bd1/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.firebase:firebase-iid:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9d67008af88a85671cae1bf0aac82bd1/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+183            <meta-data
+183-->[com.google.firebase:firebase-installations:16.3.5] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/67717e5c2102784019e6c9fe708538ac/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+184                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+184-->[com.google.firebase:firebase-installations:16.3.5] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/67717e5c2102784019e6c9fe708538ac/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-installations:16.3.5] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/67717e5c2102784019e6c9fe708538ac/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+186            <!--
+187                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+188                clients to use it as well, by defining this registrar in their own core/common library.
+189            -->
+190            <meta-data
+190-->[com.google.firebase:firebase-common:19.5.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/f034591a28b320a5cfb05428630c87a9/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+191                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+191-->[com.google.firebase:firebase-common:19.5.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/f034591a28b320a5cfb05428630c87a9/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-common:19.5.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/f034591a28b320a5cfb05428630c87a9/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+193        </service>
+194        <service
+194-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/5e988510d7365f78e066500850bc5408/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+195            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+195-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/5e988510d7365f78e066500850bc5408/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+196            android:exported="false" >
+196-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/5e988510d7365f78e066500850bc5408/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+197            <meta-data
+197-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/5e988510d7365f78e066500850bc5408/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+198                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+198-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/5e988510d7365f78e066500850bc5408/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+199                android:value="cct" />
+199-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/5e988510d7365f78e066500850bc5408/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+200        </service>
+201        <service
+201-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/ecbe9217b864083bed6280d7d2140104/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+202            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+202-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/ecbe9217b864083bed6280d7d2140104/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+203            android:exported="false"
+203-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/ecbe9217b864083bed6280d7d2140104/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+204            android:permission="android.permission.BIND_JOB_SERVICE" >
+204-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/ecbe9217b864083bed6280d7d2140104/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+205        </service>
+206
+207        <receiver
+207-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/ecbe9217b864083bed6280d7d2140104/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+208            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+208-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/ecbe9217b864083bed6280d7d2140104/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+209            android:exported="false" />
+209-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/ecbe9217b864083bed6280d7d2140104/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+210
+211        <meta-data
+211-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/fff0e470e489bf5f9f6fffa943a7a28f/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+212            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+212-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/fff0e470e489bf5f9f6fffa943a7a28f/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+213            android:value="GlideModule" />
+213-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/fff0e470e489bf5f9f6fffa943a7a28f/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+214
+215        <provider
+215-->[com.google.firebase:firebase-common:19.5.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/f034591a28b320a5cfb05428630c87a9/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+216            android:name="com.google.firebase.provider.FirebaseInitProvider"
+216-->[com.google.firebase:firebase-common:19.5.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/f034591a28b320a5cfb05428630c87a9/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+217            android:authorities="com.clickandpay.firebaseinitprovider"
+217-->[com.google.firebase:firebase-common:19.5.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/f034591a28b320a5cfb05428630c87a9/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+218            android:directBootAware="true"
+218-->[com.google.firebase:firebase-common:19.5.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/f034591a28b320a5cfb05428630c87a9/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+219            android:exported="false"
+219-->[com.google.firebase:firebase-common:19.5.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/f034591a28b320a5cfb05428630c87a9/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+220            android:initOrder="100" />
+220-->[com.google.firebase:firebase-common:19.5.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/f034591a28b320a5cfb05428630c87a9/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+221
+222        <meta-data
+222-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/c9bb04a5d5a61482703522b2c5e7d1ee/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+223            android:name="com.google.android.gms.version"
+223-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/c9bb04a5d5a61482703522b2c5e7d1ee/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+224            android:value="@integer/google_play_services_version" />
+224-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/c9bb04a5d5a61482703522b2c5e7d1ee/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+225    </application>
+226
+227</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556093275460",
+    "project_id": "clickandpay-d08ff",
+    "storage_bucket": "clickandpay-d08ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556093275460:android:6bb735bd9d1790c6d46b11",
+        "android_client_info": {
+          "package_name": "com.clickandpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556093275460-cch5t5hip5j1mif9tteo9fkqlt6m5tcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvALByw-qMpS1doPSSO0dJQTRzje0_EyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556093275460-cch5t5hip5j1mif9tteo9fkqlt6m5tcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
